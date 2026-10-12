@@ -1,0 +1,174 @@
+/* ----Full code execute---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  color: rgb(90, 49, 56);
+  font-size: 20px;
+  background-color: rgb(230, 230, 230);
+}
+
+/* ------------------Head------------------ */
+
+.hcon {
+  /* div of head */
+  height: 50px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+}
+
+.hh1 {
+  /* Title / logo */
+  height: 30px;
+  margin-left: 20px;
+  fill: white;
+}
+
+.ul {
+  /* ul list */
+  display: flex;
+}
+
+.ul a {
+  position: relative;
+}
+.ul a::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  background: #000;
+  left: 0;
+  bottom: 0;
+  transition: 1.5s;
+}
+
+.ul a:hover::after {
+  width: 90%;
+}
+.list .ul .li {
+  /* li */
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+.list .ul .li a {
+  /* menu */
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: 5.5s;
+}
+/* --------------------------------- */
+/* ----------------Main---------------- */
+.mcon {
+  /* main content of div */
+  height: 500px;
+}
+.main {
+  height: 100%;
+}
+
+h2 {
+  /* main heading */
+  font-size: 39px;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+.intro {
+  /* text and image */
+  /* border: 2px dashed; */
+  margin: 10px;
+  padding: 10px;
+}
+.text {
+  /* text div */
+  height: 100%;
+}
+h4 {
+  /* text heading */
+  font-size: 30px;
+  width: 100%;
+  /* text-align: center; */
+  margin-left: 15px;
+}
+.hh4 {
+  margin-top: 30px;
+}
+#ext {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.mtext {
+  /* text of main */
+  text-align: justify;
+  margin: 0 10px;
+  overflow: hideden;
+}
+.typeoflist {
+  margin-left: 30px;
+}
+
+/* ================img=============== */
+#img1 {
+  width: 400px;
+  float: right;
+  margin: 0 15px;
+}
+/*  */
+.footer {
+  height: 200px;
+  width: 100%;
+  /* background-color: hsl(0, 0%, 20%); */
+  background-color: hsl(352, 60%, 80%);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.icons {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  height: 40px;
+  margin-right: 20px;
+  fill: #fff;
+  transition: 0.5s;
+}
+#facebook:hover {
+  fill: hsl(197, 100%, 50%);
+  border-radius: 20px;
+  background-color: white;
+}
+#x:hover {
+  fill: hsl(0, 0%, 4%);
+}
+#whatsapp:hover {
+  fill: hsl(120, 89%, 66%);
+}
+#youtube:hover {
+  fill: red;
+}
+
+.hrf {
+  margin-bottom: 5px;
+}
+.copyright {
+  height: 20%;
+  color: #fff;
+  background-color: inherit;
+  text-align: center;
+  /* border-bottom-right-radius: 50px; */
+}
