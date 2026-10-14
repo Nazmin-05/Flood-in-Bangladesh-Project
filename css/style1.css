@@ -8,7 +8,7 @@ body {
   color: white;
   background-color: hsl(260, 100%, 1%);
   height: 100vh;
-  background-image: url(image/pexels-njeromin-16098711.jpg);
+  background-image: url(../asset/pexels-njeromin-16098711.jpg);
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
